@@ -1,0 +1,9 @@
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.works__item {
+  flex-basis: calc((100% - 60px) / 3);
+}
